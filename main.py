@@ -15,6 +15,9 @@ for i in dict:
         marks = marks + 1
     else:
         marks = marks - 1
+    user_exit_process = input("Want to Exit or not (yes/no) : ")
+    if user_exit_process == "yes":
+        break
 print(f"Marks you have been awarded are : {marks}")
 if marks == highest_marks:
     print("Woh! congratulations, You are the Topper")
